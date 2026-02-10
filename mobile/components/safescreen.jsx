@@ -1,12 +1,10 @@
 import { View, Text } from 'react-native'
-import React from 'react'
-
-const safescreen = () => {
+const SafeScreen = () => {
   return (
     <View>
-      <Text>safescreen</Text>
+      <Text>SafeScreen</Text>
     </View>
   )
 }
 
-export default safescreen
+export default SafeScreen
