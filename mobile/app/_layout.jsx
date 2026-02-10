@@ -1,5 +1,8 @@
-import { Stack } from "expo-router";
+import { Stack } from "expo-router"
+import SafeScreen from "@/components/safescreen"
 
 export default function RootLayout() {
-  return <Stack screenOptions={{ headerShown: false}} />;
+  return <SafeScreen>
+    <Stack screenOptions={{ headerShown: false}} />;
+  </SafeScreen>
 }
